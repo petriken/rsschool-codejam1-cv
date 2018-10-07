@@ -8,8 +8,10 @@
 }
 
 .personal-data {
-    clear: right;
-    }
+	clear: right;
+	background-color:#9D3ED5;
+	color:	#47036F;
+}
 
 .personal-data {
     box-sizing: border-box;
@@ -32,6 +34,7 @@ body {
 	width: 1024px;
 	margin: 0 auto;
 }
+
 .nav {
 	clear: left;
 }
@@ -50,12 +53,12 @@ body {
 	margin-right: 20px;
 	padding-bottom: 20px;
 	font-family: 'Montserrat', 'Arial', sans-serif;
-	background-color: #20548e;
+	background-color: #34CFBE;
 	box-shadow: 0 30px 30px #3a3b3d;
 }
 
 .menu a {
-	color: white;
+	color: #00675C;
 	text-decoration: none;
 }
 
@@ -63,6 +66,14 @@ body {
 	text-align: right;
 	padding: 20px 30px 20px 20px;
 	list-style-type: none;
+}
+
+.first-line {
+	background-color: #00675C;
+}
+
+.inverce-color {
+	color: #34CFBE !important; 
 }
 
 .cv {
@@ -82,11 +93,13 @@ p {
 }
 
 h3 {
+	border-top: 1px solid #FF7600;
+	padding-top: 10px;
 	text-align: center;
 	line-height: 1.2;
 	letter-spacing: -0.025em;
 	text-transform: uppercase;
-	color: #424242;
+	color: #FF7600;
 	}
 	
 .code {
@@ -98,10 +111,10 @@ h3 {
 footer {
 	clear: both;
 	padding: 20px;
-	background-color: #20548e;
+	background-color: #9D3ED5;
 }
 
 footer .copywrite {
-	color: #b7bac0;
+	color: #47036F;
 	float: right;
 	}
