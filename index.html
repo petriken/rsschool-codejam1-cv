@@ -4,41 +4,93 @@
 	<meta charset="UTF-8">
 	<title>Stashukevich Piotr</title>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
   </head>
   <body>
     <header>
-	  <div class="photo-area">
-	    <img src="photo.png" alt="" width="150" height="200">
-	  </div>
-	  <div class="personal-data">
-		<p>Piotr</p>
-		<p>Stashukevich</p>
-	  </div>
-	</header>
-	<main>
+	    <div class="photo-area">
+	      <img src="photo.png" alt="" class="img" width="150" height="200">
+	    </div>
+	    <div class="personal-data">
+		    <h2><p>Piotr</p></h2>
+				<h2><p>Stashukevich</p></h2>
+	    </div>
+	  </header>
+  	<main>
       <div class="nav">
-	    <aside>
-		Hello rolling-scopes
-		</aside>
-	  </div>
-	  <div class="cv">
-		<section>
-					Начинка резюме
-		</section>
-		<section>
-			
-		</section>
-		<section>
-			
-		</section>
-		<section>
-			
-		</section>
-	  </div>
-	</main>
-	<footer>
-		 <!-- <audio class="audio" autoplay controls loop src="audio.mp3">Тут должна играть музыка</audio>-->
-	  <small class="copywrite">&copy; Piotr Stashukevich</small>
-	</footer>
-  </body>
+	      <aside>
+		      <ul class="menu">
+		   	 		<li><a href="#Contacts">Contacts </a></li>
+			  	  <li><a href="#Sumary">Sumary</a></li>
+			 			<li><a href="#Skills">Skills</a></li>
+			  		<li><a href="#Exsamples">Exsamples</a></li>
+			  		<li><a href="#Experience">Experience</a></li>
+			 			<li><a href="#Education">Education</a></li>
+			 			<li><a href="#English">English</a></li>
+		  		</ul>
+				</aside>
+	    </div>
+	    <div class="cv">
+		    <section>
+		      <h3><a name="Contacts">Contacts</a></h3>
+		      <p>petriken82@gmail.com</p>
+		      <p>+375 29 7014145</p>
+		      <p>+375 29 1260445</p>
+		  		<p><a target="_blank" href="https://github.com/petriken">Github: petriken</a></p>
+				 </section>
+				 <section>
+		 		   <h3><a name="Sumary">Sumary</a></h3>
+		       <p>Моя цель - получить как можно больше знаний, умений писать лаконичные алгоритмы для трудоустройства frontend-разработчиком в компанию. В дальнейшем, в зависимости от проекта, более глубокое погружение в узконаправленную тему. Последующий переходом на Middle, потом Senior. На прежней работе занимал пост начальника отдела, главного инженера проектов (общестроительный ГИП) руководил группой людей, планирую стать teamlead'ом и здесь. Имею большой опыт общения как с заказчиком, так и с согласующими органами, что является моим плюсом при устройстве в компанию. Готов много учиться, желание быть востребованным разработчиком крайне велико. Хочется быть частью этой МАГИИ...</p>
+		       <p>Мне, как только начинающему познавать програмирование, не всегда сразу понятно куда обратиться за недостающими знаниями, не хватает более конкретной указки на главу/тему материала, которые необходимы для решения задачи. Прошу учесть это при улучшении программы RS.</p>
+				 </section>
+		     <section>
+		  	   <h3><a name="Skills">Skills</a></h3>
+			     <p>html</p>
+		       <p>css</p>
+			     <p>sql</p>
+		       <p>вовсю изучаю Java-script</p>
+	       </section>
+	       <section>
+		 			 <h3><a name="Exsamples">Exsamples</a></h3>
+		  		 <p class="code"><code>
+					   function decToAny(decNumber, base) {<Br>
+						 const stack = [];<Br>
+ 						 let Anystring = '';<Br>
+	  				 while (decNumber > 0) {<Br>
+						 let rem = decNumber % base;<Br>
+					 	 stack.push(rem);<Br>
+					   decNumber = Math.floor(decNumber / base);<Br>
+				     }<Br>
+				     while (stack.length) {<Br>
+				     Anystring = Anystring + stack.pop();<Br>
+				     }<Br>
+			       return Anystring<Br>
+				     }<Br>
+		       </code></p>
+		     </section>
+		     <section>
+		  	   <h3><a name="Experience">Experience</a></h3>
+		   		 <p>preparatory courses on html, css, sql</p>
+		 			 <p>Course "Introduction to HTML" (Codecademy)</p>
+				   <p>Course "Learn CSS" (Codecademy)</p>
+					 <p>HTML/CSS_1: 88 (padawance profile)</p>
+			     <p>Tasks: 1-5, 8 (padawance profile)</p>
+				 </section>
+		     <section>
+		  	   <h3><a name="Education">Education</a></h3>
+		  		 <p>Высшее образование</p>
+		  		 <p>Белорусский национальный технический университет</p>
+			     <p>ФИТР</p>
+		       <p>Специальность - инженер-электрик</p>
+				 </section>
+		     <section>
+		      <h3><a name="English">English</a></h3>
+		        <p>Starter-Pre-Intermediate + audio (Общий курс, https://test.str.by): 64%</p>
+		     </section>
+	     </div>
+	   </main>
+	   <footer>
+	    <small class="copywrite">&copy; Piotr Stashukevich</small>
+	   </footer>
+   </body>
 </html>
